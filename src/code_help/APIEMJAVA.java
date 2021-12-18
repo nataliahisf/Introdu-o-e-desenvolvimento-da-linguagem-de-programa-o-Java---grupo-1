@@ -1,6 +1,9 @@
 package code_help;
 
-public class APIEMJAVA {
+import javax.swing.JOptionPane;
+
+public class APIEMJAVA 
+{
 
 	private String urlBase; //url da pagina 
 	private String cpf;
@@ -54,5 +57,5 @@ public class APIEMJAVA {
 	public void setProvasImagens(double provasImagens) {
 		this.provasImagens = provasImagens;
 	}
-
+		
 }
