@@ -4,39 +4,28 @@ import javax.swing.JOptionPane;
 
 public class APIEMJAVA 
 {
-
-	private String urlBase; //url da pagina 
-	private String cpf;
-	private String telefone; 
+	private String nomeDaVitima;
+	private int telefone; 
 	private String endereço;
 	private String suspeito;
-	private double provasImagens;
 	
-	public APIEMJAVA (String u,String c,String t,String e,String s,double p) {
-		this.setUrlBase(u);
-		this.setCpf(c);
+	public APIEMJAVA (String n,int t,String e,String s) {
+
+		this.setNomeDaVitima(n);
 		this.setTelefone(t);
 		this.setEndereço(e);
 		this.setSuspeito(s);
-		this.setProvasImagens(p);
 	}
-
-	public String getUrlBase() {
-		return urlBase;
+	public String getNomeDaVitima() {
+		return nomeDaVitima;
 	}
-	public void setUrlBase(String urlBase) {
-		this.urlBase = urlBase;
+	public void setNomeDaVitima(String nomeDaVitima) {
+		this.nomeDaVitima = nomeDaVitima;
 	}
-	public String getCpf() {
-		return cpf;
-	}
-	public void setCpf(String cpf) {
-		this.cpf = cpf;
-	}
-	public String getTelefone() {
+	public int getTelefone() {
 		return telefone;
 	}
-	public void setTelefone(String telefone) {
+	public void setTelefone(int telefone) {
 		this.telefone = telefone;
 	}
 	public String getEndereço() {
@@ -51,11 +40,8 @@ public class APIEMJAVA
 	public void setSuspeito(String suspeito) {
 		this.suspeito = suspeito;
 	}
-	public double getProvasImagens() {
-		return provasImagens;
+	
+	public void setProvasDeImagens() {
+		System.out.println("\nPedido Recebido");
 	}
-	public void setProvasImagens(double provasImagens) {
-		this.provasImagens = provasImagens;
-	}
-		
 }
