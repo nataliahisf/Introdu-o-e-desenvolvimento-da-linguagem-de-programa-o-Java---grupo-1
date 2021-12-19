@@ -12,5 +12,6 @@
 <p>O objetivo principal é alcançar o maior número de vítimas e conseguir melhor auxiliar na solicitação de apoio e ajuda</p>
 <p>O projeto foi desenvolvido com a linguagem JAVA, para que assim possa ser facilmente integrado em qualquer sistema.</p></i>
 <br>
-<img src:"projetoJava.png">
+![Alt text](/projetoJava.png?raw=true "projetoJava")
+
 
