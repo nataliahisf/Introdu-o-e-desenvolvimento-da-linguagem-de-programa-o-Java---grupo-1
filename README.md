@@ -11,4 +11,6 @@
 <p>Utilizamos perguntas chaves simulando um pedido de delivery pelo aplicativo. Para que assim a vítima consiga solicitar ajuda em maior segurança e discrição.</p>
 <p>O objetivo principal é alcançar o maior número de vítimas e conseguir melhor auxiliar na solicitação de apoio e ajuda</p>
 <p>O projeto foi desenvolvido com a linguagem JAVA, para que assim possa ser facilmente integrado em qualquer sistema.</p></i>
+<br>
+<img src:"projetoJava.png">
 
