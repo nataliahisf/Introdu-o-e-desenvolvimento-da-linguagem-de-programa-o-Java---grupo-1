@@ -4,10 +4,10 @@ import javax.swing.JOptionPane;
 
 public class APIEMJAVA 
 {
-	private String nomeDaVitima;
-	private int telefone; 
-	private String endereço;
-	private String suspeito;
+	protected String nomeDaVitima;
+	protected int telefone; 
+	protected String endereço;
+	protected String suspeito;
 	
 	public APIEMJAVA (String n,int t,String e,String s) {
 
@@ -40,7 +40,6 @@ public class APIEMJAVA
 	public void setSuspeito(String suspeito) {
 		this.suspeito = suspeito;
 	}
-	
 	public void setProvasDeImagens() {
 		System.out.println("\nPedido Recebido");
 	}

@@ -7,7 +7,6 @@ import javax.swing.JOptionPane;
 @SuppressWarnings("unused")
 public class teste {
 	public static void main(String[] args) {
-		
 		Scanner entrada = new Scanner (System.in);
 		int pedido = Integer.parseInt(JOptionPane.showInputDialog("Faça seu pedido\n1 - amarelo\n2 - vermelho\n3 - roxo\n4 - verde"));
 	
@@ -26,13 +25,7 @@ public class teste {
 	else if (pedido==4)
 	{
 		int verde = Integer.parseInt(JOptionPane.showInputDialog("Deseja falar com um atendente agora?\n1 - sim\n2 - não"));
-
-	
-		Pessoa perigo = new Pessoa("Maria da Penha", 1193201930,"Rua Ford nº20","Marido");
-		perigo.pessoaInfo();
-		perigo.setProvasDeImagens();
    	  
-		
 		if (verde==1){
 				System.out.println("Estamos direcionando seu contato, por gentileza, aguarde.");
 		}else {
@@ -48,6 +41,8 @@ public class teste {
 				System.out.println("Orientações em tela para procedimento da denuncia.");
 				}
 			}
+		Vitima perigo = new Vitima("Maria da Penha",945177343,"Rua Ford nº20","Marido"); 
+		System.out.println("\nA vitima é: "+perigo.getNomeDaVitima()+"\nO telefone registrado no aplicativo é: "+perigo.getTelefone()+"\nO endereço é: "+perigo.getEndereço()+". \nE o suspeito é o(a): "+perigo.getSuspeito());
 		}
 	}
 }
