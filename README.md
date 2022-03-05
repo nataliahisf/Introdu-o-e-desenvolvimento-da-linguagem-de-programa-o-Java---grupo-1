@@ -1,6 +1,6 @@
 <b><h1>"Introdução e desenvolvimento da linguagem de programação JAVA - Grupo 1"</h1></b>
 <br> 
-<i><h2>Projeto <>Code_Help;{</h2></i>
+<h2 align=center>Projeto <>Code_Help;{</h2>
 <br>
 
 <i><p>Finalização do Bloco 1 Generation</p></i>
